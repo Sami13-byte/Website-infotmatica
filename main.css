@@ -1,0 +1,106 @@
+/* Aangepaste stijlen voor de header en zoekbalk */
+header {
+    background-color: #3CB371;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header-top a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.header-top a:hover {
+    text-decoration: underline;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 40px;
+    width: auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 20px; /* Rond de hoeken voor een meer gestileerde zoekbalk */
+    outline: none;
+}
+
+.search-button {
+    background-color: #3CB371;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #FFA500; /* Orange color */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Additional submenu styles */
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #FFA500; /* Orange color for submenus */
+    list-style: none;
+    padding: 0;
+}
+
+nav li:hover ul {
+    display: block;
+    width: 120px;
+}
+
+nav li ul li {
+    padding: 5px;
+}
+
+nav ul ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul ul a:hover {
+    text-decoration: underline;
+}
+
+/* Voeg hier verdere stijlen en aanpassingen toe, inclusief hover-effecten voor de navigatielinks en submenu's. */
